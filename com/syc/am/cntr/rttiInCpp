@@ -1,0 +1,8 @@
+ Person* vod = new Person2;           // dynamic_cast 只能转换有virtual的基类对象
+   if(typeid(*vod)==typeid(Person2)){ //typeid只能比较对象的具体类型,也只能比较有virtual函数的对象
+       Person2* ptr2 = (Person2*)vod; //而dynamic_cast能比较对象是否属于某个继承链
+       std::cout << "true\n";         //typeid相当于java的Class1==Class2,dynamic_cast相当于java的instanceof
+   }else{                             //typeid操作的是离散值,而dynamic_cast操作的是范围
+       std::cout << "false\n";
+   }
+    delete vod;

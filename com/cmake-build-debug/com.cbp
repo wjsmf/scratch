@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="com"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/scratch/com/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="com">
+				<Option output="D:/scratch/com/cmake-build-debug/com.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/scratch/com/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/scratch/com/."/>
+					<Add directory="D:/scratch/com/syc"/>
+					<Add directory="D:/scratch/com/syc/am"/>
+					<Add directory="D:/scratch/com/syc/cproj"/>
+					<Add directory="D:/programfiles/codeblocks1601/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="D:/programfiles/codeblocks1601/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="D:/programfiles/codeblocks1601/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="D:/programfiles/codeblocks1601/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="D:/programfiles/codeblocks1601/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="D:/programfiles/codeblocks1601/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 com"/>
+					<CompileFile command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="com/fast">
+				<Option output="D:/scratch/com/cmake-build-debug/com.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/scratch/com/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/scratch/com/."/>
+					<Add directory="D:/scratch/com/syc"/>
+					<Add directory="D:/scratch/com/syc/am"/>
+					<Add directory="D:/scratch/com/syc/cproj"/>
+					<Add directory="D:/programfiles/codeblocks1601/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="D:/programfiles/codeblocks1601/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="D:/programfiles/codeblocks1601/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="D:/programfiles/codeblocks1601/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="D:/programfiles/codeblocks1601/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="D:/programfiles/codeblocks1601/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 com/fast"/>
+					<CompileFile command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/scratch/com/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/scratch/com/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/programfiles/codeblocks1601/MinGW/bin/mingw32-make.exe -f &quot;D:/scratch/com/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/scratch/com/syc/am/cntr/Bgew.java">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/Const.java">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/FundValImportImpl.java">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/MailReceiverStartup.java">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/README.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/addBashInContextMenu.reg">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/ajs.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/c05features.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/cfeatures.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/charArrAndcharPointer.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/charset.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/cmake.PNG">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/corstaticlib.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/cpp150Advise.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/createStaticLibrary.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/dlTable.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/dockerLog.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/gitUsage.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/mysqlDateTime.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/mysqlProcSample.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/notesOnConsArrInClang.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/one.js">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/outlink.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/recursively.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/relative.PNG">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/showslowSql.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/sortUsage.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/varBeforeFor.jsp">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/varargsInClang.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/cntr/warDirConsInMavenProj.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/am/usefulSnippets.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/syc/cproj/projectUsingDll.md">
+			<Option target="com"/>
+		</Unit>
+		<Unit filename="D:/scratch/com/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

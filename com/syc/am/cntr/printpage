@@ -1,0 +1,38 @@
+public  String downPdf(@PathVariable Long productId, @PathVariable String analysisType, HttpServletRequest request, HttpServletResponse response){
+      System.setProperty("chrome_binary",chrome);
+                    String requestUri = request.getRequestURL().toString();
+                    String url = requestUri.substring(0,requestUri.indexOf(request.getRequestURI()));
+                    Launcher launcher = new Launcher();
+                    launcher.setProcessManager(new AdaptiveProcessManager());
+            //        Path file = makeTempFile();
+                    try (SessionFactory factory = launcher.launch(Arrays.asList("--disable-gpu", "--headless"))) {
+                        String context = factory.createBrowserContext();
+                        try(Session session=factory.create(context)){
+                            session.navigate(new StringBuilder(80).append(url).append("/").append(analysisType).append("/performance/pdf/print?productId=").append(productId).toString());
+                            session.waitDocumentReady();
+                            session.wait(4000);
+                            Page page = session.getCommand().getPage();
+                            byte content[]=page.printToPDF(true,false,true,1.0,8.5,11.,0.4,0.4,0.4,0.4,"",false,"","");
+                            RegexpUtils.down4File(response,content,analysisType+"Analysis",".pdf");
+                        }
+                        factory.disposeBrowserContext(context);
+                    }
+                    launcher.getProcessManager().kill();
+                    return null;             
+}
+
+
+
+pom.xml:
+
+
+<dependency>
+            <groupId>io.webfolder</groupId>
+            <artifactId>cdp4j</artifactId>
+            <version>2.2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jvnet.winp</groupId>
+            <artifactId>winp</artifactId>
+            <version>1.26</version>
+        </dependency>
