@@ -8,4 +8,4 @@
 9. [deprecated features in C++11](https://stackoverflow.com/questions/9299101/what-c-idioms-are-deprecated-in-c11)
 10. [核心编程（六）--提高性能及操作硬件的能力](https://www.jianshu.com/p/bbcf07bdc8ae?utm_campaign=maleskine&utm_content=note&utm_medium=pc_all_hots&utm_source=recommendation)
 11. [C++11 新特性解析与应用----为改变思考方式而改变](https://www.jianshu.com/p/9f495044125c?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
-12. [elixir: the future of PL](https://blog.devopszen.com/elixir#a4)
+12. [golang site](https://golang.google.cn/)
