@@ -21,7 +21,9 @@
 * 如下所示片段,这种锚跳转的方式不需要定义id,锚跳转到每个对应的标题上
 * js中在事件对象上调用`evt.preventDefault();`可以用于阻止触发a标签的链接跳转行为;
 # title ui
-you need to sed
+进入到WEB-INF/lib, 运行下列命令: 
+find . -name '*.jar' | xargs -n1 unzip -l | grep '\.class$' | awk '{print $NF}' | sort | uniq -c | awk '$1 > 1' | less
+      找出重复的class,有潜在的class冲突问题
 # title! 2
 xvadgargewrgqrgergwergqrg
 # title 3 notes
