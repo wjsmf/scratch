@@ -10,5 +10,5 @@
 11. [C++11 新特性解析与应用----为改变思考方式而改变](https://www.jianshu.com/p/9f495044125c?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
 12. [golang site](https://golang.google.cn/)
 13. [shell 操作之 read、cat 和 here document](https://m.aliyun.com/yunqi/articles/42187)
-14. [shell中$[] 与 $( ) 还有${ }的区别](https://www.cnblogs.com/xunbu7/p/6187017.html)
+14. [shell中 $( ) 还有${ }的区别](https://www.cnblogs.com/xunbu7/p/6187017.html)
 15.[bash中字符串处理](http://bbs.chinaunix.net/forum.php?mod=viewthread&tid=201843)
