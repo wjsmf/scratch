@@ -12,3 +12,4 @@
 13. [shell 操作之 read、cat 和 here document](https://m.aliyun.com/yunqi/articles/42187)
 14. [shell中 $](https://www.cnblogs.com/xunbu7/p/6187017.html)
 15. [bash中字符串处理](http://bbs.chinaunix.net/forum.php?mod=viewthread&tid=201843)
+16. [Advanced Bash-Scripting Guide](http://www.tldp.org/guides.html)
