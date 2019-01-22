@@ -13,3 +13,4 @@
 14. [shell中 $](https://www.cnblogs.com/xunbu7/p/6187017.html)
 15. [bash中字符串处理](http://bbs.chinaunix.net/forum.php?mod=viewthread&tid=201843)
 16. [Advanced Bash-Scripting Guide](http://www.tldp.org/guides.html)
+17. [Spring integration ftp](https://github.com/spring-projects/spring-integration-samples/tree/master/basic/ftp)
