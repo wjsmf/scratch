@@ -13,5 +13,9 @@
                 collation-server=utf8_unicode_ci
                 skip-character-set-client-handshake
 
+# another way for data import beside mysqldump/pump and into outfile 
+
+          mysql -hyourmysqlhost  -uyouraccount -p  --execute="select * from schemaX.tableY where conditon..." > path2txt_file
+          如果希望记录以竖直布局, 只需要加上 --vertical
 
         
