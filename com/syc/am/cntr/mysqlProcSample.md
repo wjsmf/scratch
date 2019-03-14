@@ -21,4 +21,8 @@
 # Mysql server side 开启线程池
           my.ini/my.cnf中 添加 thread_handling=pool-of-threads
           启用线程池后, 想要终止某个查询的话， 用 kill query connection_id; 而不能写kill connection_id, 否则会导致整个连接被kill;
+          
+# pgsql的合并插入
+          insert into test_qiao(id,name,sex,email,city,date,hobby,descri) values ('1','postgre','女','123','bj','2018-01-10 22:00:00','zq','nihao') on conflict (id) do update 
+          set name='pg',sex='女',email='123',city='bj',date='2018-01-10 22:00:00',hobby='ymq',descri='nihao';
         
