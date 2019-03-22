@@ -231,40 +231,10 @@
          +--------+-------+--------+------+------+-------------+
          14 rows in set (0.01 sec)
 # mysql rownum
+     
+     分组之后再带上每组的序号
+     SET @rn := 1;
+     set @strat := null;
+     select case @strat when strategy then @rn := @rn + 1 else @rn := 1 end `rownum` , @strat := strategy `strategy` from fund 
+     where asset_type = 10 and strategy_catalog = 15 order by strategy;
 
-     SET @rn=0;
-     SELECT deptno,
-            empno,
-            ename,
-            @rn := @rn + 1 AS rn
-       FROM EMP
-      ORDER BY 1, 2;
-
-     mysql> SET @rn=0;
-     Query OK, 0 rows affected (0.00 sec)
-
-     mysql> SELECT deptno,
-         ->        empno,
-         ->        ename,
-         ->        @rn := @rn + 1 AS rn
-         ->   FROM EMP
-         ->  ORDER BY 1, 2;
-     +--------+-------+--------+------+
-     | deptno | empno | ename  | rn   |
-     +--------+-------+--------+------+
-     |     10 |  7782 | CLARK  |    1 |
-     |     10 |  7839 | KING   |    2 |
-     |     10 |  7934 | MILLER |    3 |
-     |     20 |  7369 | SMITH  |    4 |
-     |     20 |  7566 | JONES  |    5 |
-     |     20 |  7788 | SCOTT  |    6 |
-     |     20 |  7876 | ADAMS  |    7 |
-     |     20 |  7902 | FORD   |    8 |
-     |     30 |  7499 | ALLEN  |    9 |
-     |     30 |  7521 | WARD   |   10 |
-     |     30 |  7654 | MARTIN |   11 |
-     |     30 |  7698 | BLAKE  |   12 |
-     |     30 |  7844 | TURNER |   13 |
-     |     30 |  7900 | JAMES  |   14 |
-     +--------+-------+--------+------+
-     14 rows in set (0.00 sec)
