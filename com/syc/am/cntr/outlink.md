@@ -4,7 +4,6 @@
 4. [markdown用法](https://www.cnblogs.com/crazyant007/p/4220066.html) 
 4. [MySQL临时表](http://www.cnblogs.com/jevo/p/3262227.html)    
 4. [MySQL常用操作](http://www.cnblogs.com/ivictor/p/5010593.html)
-4. [Mysql二进制日志启用后存储子程序的问题解决](http://www.cnblogs.com/kerrycode/p/7641835.html)
 4. [MySQL临时表](http://imysql.com/2015/07/11/mysql-faq-how-using-temp-table.shtml)    
 5. [30 linux monitor tools](http://blog.jobbole.com/113681/)
 5. [Mysql主从复制原理和配置](http://www.cnblogs.com/try-better-tomorrow/category/760576.html)
