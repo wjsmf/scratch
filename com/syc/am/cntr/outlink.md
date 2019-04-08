@@ -2,7 +2,7 @@
 2. [CSS核心概念](http://web.jobbole.com/91779/?utm_source=blog.jobbole.com&utm_medium=relatedPosts)
 3. [css3中的display:flex弹性布局](https://www.cnblogs.com/xuyuntao/articles/6391728.html)
 4. [markdown用法](https://www.cnblogs.com/crazyant007/p/4220066.html) 
-4. [MySQL临时表](http://www.cnblogs.com/jevo/p/3262227.html)    
+4. [MySQL触发器](https://www.cnblogs.com/jevo/p/3272505.html)    
 4. [MySQL常用操作](http://www.cnblogs.com/ivictor/p/5010593.html)
 4. [MySQL临时表](http://imysql.com/2015/07/11/mysql-faq-how-using-temp-table.shtml)    
 5. [30 linux monitor tools](http://blog.jobbole.com/113681/)
