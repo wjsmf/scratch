@@ -31,9 +31,9 @@
 
                 同时这种方式还可以用于替换minus操作,因为mysql不支持minus.
                 
-                由于MySQL delete操作不可为表取别名,所以无法使用join连接操作,也就无法使用上述优化措施
-# IN in mysql
-        mysql中的in后的集合若为字面量时有长度限制,最多不可超过大概5000个元素
+# IN in mysql/oracle/sql_server
+       oracle和sql_server的in后的集合若为字面量时有长度限制,最多不可超过大概5000个元素, 而mysql只受制于整条sql长度的限制
+       
 # specify pk when create table as select
    create table new_tbl (PRIMARY KEY(`id`)) as select * from old_tbl;
 
@@ -49,16 +49,9 @@
         字典库:information_schema,常用字典表:
         INFORMATION_SCHEMA.SCHEMATA  --数据库中所有数据库信息
         INFORMATION_SCHEMA.TABLES  --存放数据库中所有数据库表信息
-        INFORMATION_SCHEMA.COLUMNS  --所有数据库表的列信息
-        INFORMATION_SCHEMA.STATISTICS  --存放索引信息
-        INFORMATION_SCHEMA.USER_PRIVILEGES  --
-        INFORMATION_SCHEMA.SCHEMA_PRIVILEGES
-        INFORMATION_SCHEMA.TABLE_PRIVILEGES
-        INFORMATION_SCHEMA.COLUMN_PRIVILEGES
         INFORMATION_SCHEMA.CHARACTER_SETS
         INFORMATION_SCHEMA.COLLATIONS
         INFORMATION_SCHEMA.COLLATION_CHARACTER_SET_APPLICABILITY
-        INFORMATION_SCHEMA.TABLE_CONSTRAINTS
         INFORMATION_SCHEMA.KEY_COLUMN_USAGE ---存放数据库里所有具有约束的键信息
         INFORMATION_SCHEMA.ROUTINES
         INFORMATION_SCHEMA.VIEWS  --存放所有视图信息
